@@ -14,14 +14,14 @@ import time
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 # TMDB API Configuration
-TMDB_API_KEY = "8a2a1e6a69c1cbe641993c4ff16c12f6"  # Replace with your TMDB API key
+TMDB_API_KEY = "8a2a1e6a69c1cbe641993c4ff16c12f6"  
 TMDB_BASE_URL = "https://api.themoviedb.org/3"
 
 # MySQL Database Configuration
 MYSQL_CONFIG = {
     "host": "localhost",
-    "user": "root",  # Replace with your MySQL username
-    "password": "123456789",  # Replace with your MySQL password
+    "user": "root",  
+    "password": "123456789",  
     "database": "movie_recommender",
 }
 
